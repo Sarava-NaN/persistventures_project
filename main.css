@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Colors */
+:root{
+    --bg-color: #2f3437;
+    --bg-color-0: #474c50;
+    --bg-color-1: #3f4447;
+    --bg-color-2: hsla(44,6%,50%,.15);
+    --notion-red: #ff7369;
+    --notion-pink: #e255a1;
+    --notion-blue: #529cca;
+    --notion-purple: #9a6dd7;
+    --notion-teal: #4dab9a;
+    --notion-yellow: #ffdc49;
+    --notion-orange: #ffa344;
+    --notion-brown: #937264;
+    --notion-gray: hsla(195,2%,60%,.95);
+    --notion-red_background: #594141;
+    --notion-pink_background: #533b4c;
+    --notion-blue_background: #364954;
+    --notion-purple_background: #443f57;
+    --notion-teal_background: #354c4b;
+}
+/* Flex Styles */
+.flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+body{
+    background-color: var(--bg-color);
+    color: azure;
+}
+.header{
+    height: 10vh;
+    width: 1200px;
+    margin: auto;
+}
+/* .Redine_Status{
+} */
+.search-icon{
+    padding: 12px 25px;
+    transition: 400ms;
+    border-radius: 12px;
+}
+.search-icon:hover{
+cursor: pointer;
+background-color:#6164669d
+}
+.search-text{
+    transform: translateX(20%);
+
+}
+/* Image*/
+.logo{
+   width:1000px;
+   margin: auto;
+}
+img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+}
+.notion-page-icon{
+    font-size: 4rem;
+    text-align: center;
+    transform: translateY(-48px);
+}
+.notion-page-title{
+    text-align: center;
+    font-size: 2.8rem;
+    margin-top: -40px;
+    font-family: monospace;
+}
+.para-one{
+    margin: 12px;
+    font-size: 1.2rem;
+    font-family: monospace;
+    margin-top: 2.2rem;
+}
+.notion-red{
+    width:1000px;
+    margin: auto;
+}
+.Overview{
+    color: var(--notion-red);
+    margin-top:4rem;
+    cursor: pointer;
+}
+.Overview::before{
+    content:'';
+    height:12px;
+    display: block;
+    width:23rem;
+    background-color:var(--notion-teal);
+    transform: scale(0);
+    transition: 400ms;
+    transform-origin: left;
+}
+.Overview:hover::before{
+    transform: scale(1);
+}
+.Overview::after{
+    content:'';
+    height:12px;
+    display: block;
+    width:23rem;
+    background-color:var(--notion-purple);
+    transform: scale(0);
+    transition: 400ms;
+    transform-origin:right;
+}
+.Overview:hover::after{
+    transform: scale(1);
+}
+/* Paragraph-css */
+.paragraph{
+    width:1000px;
+    margin: auto;
+}
+.mtmb{
+    line-height: 2rem;
+    margin-top:1rem;
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+}
+.third-para{
+    margin-top: 5rem;
+    margin-bottom: 4rem;
+}
+.sec-para{
+    margin-top:3rem;
+}
+.fourth-para{
+    border-left:6px solid var(--notion-blue);
+    padding:1px 30px;
+}
+.anchor_jay{
+    text-decoration: underline;
+    transition: 1s;
+}
+.anchor_jay:visited{
+    color: white;
+}
+.anchor_jay:hover{
+    transition: 100ms;
+    text-decoration-color: var(--notion-purple);
+}
+.Overview-2{
+    color: var(--notion-blue);
+    margin-top:4rem;
+    cursor: pointer;
+}
+.Overview-2::before{
+    content:'';
+    height:12px;
+    display:block;
+    width:13rem;
+    background-color:var(--notion-teal);
+    transform: scale(0);
+    transition: 400ms;
+    transform-origin: left;
+}
+.Overview-2:hover::before{
+    transform: scale(1);
+}
+.Overview-2::after{
+    content:'';
+    height:12px;
+    display:block;
+    width:13rem;
+    background-color:var(--notion-purple);
+    transform: scale(0);
+    transition: 400ms;
+    transform-origin:right;
+}
+.Overview-2:hover::after{
+    transform: scale(1);
+}
+.frth-para{
+    font-size: 1.1rem;
+    font-weight: 900;
+}
+.small_font{
+    font-size: 1em;
+}
+.left_border{
+    border-left:6px solid var(--notion-blue);
+    padding:1px 30px;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    display: block;
+}
+.Overview-3{
+    color: var(--notion-purple);
+    margin-top:2rem;
+    cursor: pointer;
+}
+.Overview-3::before{
+    content:'';
+    height:12px;
+    display:block;
+    width:17rem;
+    background-color:var(--notion-teal);
+    transform: scale(0);
+    transition: 400ms;
+    transform-origin: left;
+}
+.Overview-3:hover::before{
+    transform: scale(1);
+}
+.Overview-3::after{
+    content:'';
+    height:12px;
+    display:block;
+    width:17rem;
+    background-color:var(--notion-purple);
+    transform: scale(0);
+    transition: 400ms;
+    transform-origin:right;
+}
+.Overview-3:hover::after{
+    transform: scale(1);
+}
+/* qrcode img */
+.logo_qrcode{
+    width: 800px;
+    margin: auto;
+}
+.qrcode{
+    margin-top:2rem;
+    height: auto;
+    border-radius:0; 
+}
+

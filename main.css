@@ -328,3 +328,76 @@ footer{
     --primary-color:#000106;
     --secondary-color:#fff;
  } */
+/* Media Query*/
+ @media screen and (max-width:400px) {
+    .header{
+        height: 10vh;
+        width:fit-content;
+        /* margin: auto; */
+    }
+    /* Image*/
+    .logo{
+       width:fit-content;
+       margin: auto;
+    }
+    img{
+        width: 100%;
+        height: 140px;
+    }  
+    .notion-page-title{
+        text-align: center;
+        font-size: 2rem;
+    }
+    .para-one{
+        font-size:1rem;
+    }
+    .notion-red{
+        width:fit-content;
+        margin: auto;
+    }
+    .Overview{
+        color: var(--notion-red);
+        margin-top:2rem;
+        font-size: 1.8rem;
+    }
+    .Overview::before{
+        content:'';
+        height:12px;
+        display: block;
+        width:20rem;
+        background-color:var(--notion-teal);
+        transform: scale(0);
+        transition: 400ms;
+        transform-origin: left;
+    }
+    .Overview:hover::before{
+        transform: scale(1);
+    }
+    .Overview::after{
+        content:'';
+        height:12px;
+        display: block;
+        width:20rem;
+        background-color:var(--notion-purple);
+        transform: scale(0);
+        transition: 400ms;
+        transform-origin:right;
+    }
+    .Overview:hover::after{
+        transform: scale(1);
+    }
+    /* Paragraph-css */
+    .paragraph{
+        width:auto;
+        margin: 20px;
+    }
+    /* qrcode img */
+.logo_qrcode{
+    width:fit-content;
+    margin:30px;
+}
+.qrcode{
+    margin-top:2rem;
+    border-radius:0; 
+}
+ }

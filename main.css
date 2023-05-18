@@ -31,8 +31,8 @@
     align-items: center;
 }
 body{
-    background-color: var(--bg-color);
-    color: azure;
+    background-color:var(--primary-color);
+    color: var(--secondary-color);
 }
 .header{
     height: 10vh;
@@ -150,6 +150,7 @@ img{
 .anchor_jay:hover{
     transition: 100ms;
     text-decoration-color: var(--notion-purple);
+    text-decoration-style: wavy;
 }
 .Overview-2{
     color: var(--notion-blue);
@@ -237,4 +238,93 @@ img{
     height: auto;
     border-radius:0; 
 }
-
+.Overview-4{
+    color: var(--notion-pink);
+    margin-top:2rem;
+    margin-bottom:2rem;
+    cursor: pointer;
+}
+.Overview-4::before{
+    content:'';
+    height:12px;
+    display:block;
+    width:29rem;
+    background-color:var(--notion-teal);
+    transform: scale(0);
+    transition: 400ms;
+    transform-origin: left;
+}
+.Overview-4:hover::before{
+    transform: scale(1);
+}
+.Overview-4::after{
+    content:'';
+    height:12px;
+    display:block;
+    width:29rem;
+    background-color:var(--notion-purple);
+    transform: scale(0);
+    transition: 400ms;
+    transform-origin:right;
+}
+.Overview-4:hover::after{
+    transform: scale(1);
+}
+.Overview-5{
+    color: var(--notion-teal);
+    margin-top:2rem;
+    margin-bottom:2rem;
+    cursor: pointer;
+}
+.Overview-5::before{
+    content:'';
+    height:12px;
+    display:block;
+    width:35rem;
+    background-color:var(--notion-teal);
+    transform: scale(0);
+    transition: 400ms;
+    transform-origin: left;
+}
+.Overview-5:hover::before{
+    transform: scale(1);
+}
+.Overview-5::after{
+    content:'';
+    height:12px;
+    display:block;
+    width:35rem;
+    background-color:var(--notion-purple);
+    transform: scale(0);
+    transition: 400ms;
+    transform-origin:right;
+}
+.Overview-5:hover::after{
+    transform: scale(1);
+}
+/* Footer */
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--notion-red);
+    height: 15vh;
+}
+#icon{
+    cursor: pointer;
+    width: 80px;
+    height:auto;
+ }
+ #icon1{
+    cursor: pointer;
+    width: 50px;
+    height:auto;
+ }
+ .dark-theme{
+    --primary-color:#000106;
+    --secondary-color:#fff;
+ }
+ /* .dark-theme_2{
+    --primary-color:#000106;
+    --secondary-color:#fff;
+ } */

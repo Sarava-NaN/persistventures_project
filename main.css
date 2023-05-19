@@ -330,10 +330,21 @@ footer{
  } */
 /* Media Query*/
  @media screen and (max-width:400px) {
+ header{
+        position:sticky;
+        top:0;
+        height: 10vh;
+        background-color:#2f3437;
+        margin-bottom: .8rem;
+    }
     .header{
         height: 10vh;
         width:fit-content;
-        /* margin: auto; */
+        /* margin: auto; */       
+        width: auto;
+    }
+    .search-icon{
+       display: none;
     }
     /* Image*/
     .logo{

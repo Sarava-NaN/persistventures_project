@@ -145,7 +145,7 @@ img{
     transition: 1s;
 }
 .anchor_jay:visited{
-    color: white;
+    color: rebeccapurple;
 }
 .anchor_jay:hover{
     transition: 100ms;

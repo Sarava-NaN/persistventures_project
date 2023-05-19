@@ -357,7 +357,7 @@ header{
      }
      #icon{
         cursor: pointer;
-        width: 40px;
+        width: 30px;
         height:auto;
      }
     .search-icon{
@@ -454,12 +454,12 @@ header{
     }
     #icon1{
         cursor: pointer;
-        width: 50px;
+        width: 40px;
         height:auto;
      }
      #icon{
         cursor: pointer;
-        width: 50px;
+        width: 40px;
         height:auto;
      }
     /* Image*/
@@ -522,12 +522,12 @@ footer>h1{
     }
     #icon1{
         cursor: pointer;
-        width: 80px;
+        width: 40px;
         height:auto;
      }
      #icon{
         cursor: pointer;
-        width: 80px;
+        width: 40px;
         height:auto;
      }
     /* Image*/
@@ -540,10 +540,10 @@ footer>h1{
     }  
     .notion-page-title{
         text-align: center;
-        font-size: 4rem;
+        font-size: 2rem;
     }
     .para-one{
-        font-size:2rem;
+        font-size:1rem;
     }
     .notion-red{
         width:fit-content;

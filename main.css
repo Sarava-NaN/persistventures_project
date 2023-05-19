@@ -339,7 +339,7 @@ footer{
 /* Media Query*/
  @media screen and (max-width:400px) {
        body {
-        background: url(/ivana-cajina-asuyh-_ZX54-unsplash.jpg);
+        background: url(ivana-cajina-asuyh-_ZX54-unsplash.jpg);
         background-position: center;
         background-size: cover;
         background-attachment: fixed;

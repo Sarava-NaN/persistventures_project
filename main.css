@@ -330,19 +330,28 @@ footer{
  } */
 /* Media Query*/
  @media screen and (max-width:400px) {
- header{
+header{
         position:sticky;
         top:0;
-        height: 10vh;
-        background-color:#2f3437;
+        background-color:#2f3437ea;
         margin-bottom: .8rem;
     }
     .header{
-        height: 10vh;
+        /* height: 10vh; */
         width:fit-content;
         /* margin: auto; */       
         width: auto;
     }
+    #icon1{
+        cursor: pointer;
+        width: 30px;
+        height:auto;
+     }
+     #icon{
+        cursor: pointer;
+        width: 40px;
+        height:auto;
+     }
     .search-icon{
        display: none;
     }
@@ -410,5 +419,15 @@ footer{
 .qrcode{
     margin-top:2rem;
     border-radius:0; 
+}
+     footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--notion-teal_background);
+    height: 10vh; 
+}
+     footer>h1{
+    font-size: 1rem;
 }
  }
